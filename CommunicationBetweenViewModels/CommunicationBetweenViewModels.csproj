@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <ProjectGuid>{F74906ED-F41C-4404-B5D7-C441B64BA27D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <UseWpf>true</UseWpf>
+    <TargetFramework>net472</TargetFramework>
+    <AssemblyTitle>CommunicationBetweenViewModels</AssemblyTitle>
+    <Product>CommunicationBetweenViewModels</Product>
+    <Copyright>Copyright ©  2019</Copyright>
+    <OutputPath>bin\$(Configuration)\</OutputPath>
+    <LangVersion>8.0</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="LivetCask" Version="3.1.0" />
+  </ItemGroup>
+</Project>
